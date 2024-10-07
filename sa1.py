@@ -7,9 +7,9 @@ import torch
 import datetime
 #connection for mysql database
 import mysql.connector
-mydb = mysql.connector.connect(host="database-1.c98ye0wu4lb7.ap-south-1.rds.amazonaws.com",
-                               user="admin",
-                               password="RajaHari190699",
+mydb = mysql.connector.connect(host="",
+                               user="",
+                               password="",
                                port=3306)
 mycursor = mydb.cursor(buffered=True)
 
